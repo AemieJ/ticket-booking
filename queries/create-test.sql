@@ -27,37 +27,32 @@ create table seat (
 create table luxeries (
     id_luxery varchar(12),
     payment_luxery double precision,
-    phone_no bigint,
-    foreign key (phone_no) references customer(phone_no)
+    phone_no bigint
 );
 
 create table popcorn (
     size char(1),
     type_of_popcorn varchar(15),
     qty int,
-    phone_no bigint,
-    foreign key (phone_no) references customer(phone_no)
+    phone_no bigint
 
 );
 
 create table nachos (
     type_of_nachos varchar(8),
     qty int,
-    phone_no bigint,
-    foreign key (phone_no) references customer(phone_no)
+    phone_no bigint
 );
 
 create table chocolate (
     type_of_chocolate varchar(8),
     qty int,
-    phone_no bigint,
-    foreign key (phone_no) references customer(phone_no)
+    phone_no bigint
 );
 
 create table drink (
     size char(1),
     type_of_drink varchar(15),
     qty int,
-    phone_no bigint,
-    foreign key (phone_no) references customer(phone_no)
+    phone_no bigint
 );
