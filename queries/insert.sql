@@ -21,14 +21,14 @@ insert into luxeries values("1P2N2D", 400.50, 9396572210);
 insert into luxeries values("1P3D", 420.25, 7951572310);
 insert into luxeries values("1P3C", 324.56, 6998572411);
 
-insert into popcorn values("L", "Salted", 1, 9998572210);
-insert into popcorn values("M", "Caramel", 1, 9396572210);
-insert into popcorn values("L", "Salted", 1, 7951572310);
-insert into popcorn values("S", "Cheese", 1, 6998572411);
+insert into popcorn values("L", "Sa", 1, 9998572210);
+insert into popcorn values("M", "Ca", 1, 9396572210);
+insert into popcorn values("L", "Sa", 1, 7951572310);
+insert into popcorn values("S", "Ch", 1, 6998572411);
 
-insert into nachos values("Cheese", 2, 9396572210);
+insert into nachos values("Ch", 2, 9396572210);
 
-insert into chocolate values("Bounty", 3, 6998572411);
+insert into chocolate values("Bo", 3, 6998572411);
 
 insert into drink values("S", "SpCC", 2, 9396572210);
 insert into drink values("S", "SpSpMD", 3, 7951572310 );
