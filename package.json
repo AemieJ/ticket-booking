@@ -16,7 +16,7 @@
     "box-console": "^2.0.0",
     "chalk": "^4.0.0",
     "console-table-printer": "^1.4.26",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "^0.0.1-security",
     "inquirer": "^7.1.0",
     "mysql": "^2.18.1",
